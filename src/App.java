@@ -5,5 +5,9 @@ public class App {
         profesor.setSalario(profesor.calcularSueldo(10,1000));
         System.out.println(profesor.getNombre() + " gana " + profesor.getSalario() + " siendo profesor");
         
+        Abogado abogado = new Abogado();
+        abogado.setNombre("David");
+        abogado.setSalario(abogado.calcularSueldo(8,2000));
+        System.out.println(abogado.getNombre() + " gana " + abogado.getSalario() + " siendo abogado");
     }
 }
