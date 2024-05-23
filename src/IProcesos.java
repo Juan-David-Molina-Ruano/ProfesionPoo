@@ -1,3 +1,3 @@
 public interface IProcesos {
-    public void calcularSueldo(int horasTrabajadas, double pagoPorHora);
+    public double calcularSueldo(int horasTrabajadas, double pagoPorHora);
 }
